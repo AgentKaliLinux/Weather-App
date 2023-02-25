@@ -20,7 +20,7 @@ const getWeather = (city) => {
 		humidity.innerHTML = `<h3>Humidity is : ${response.humidity}</h3>`
  		sunrise.innerHTML = `<h3>Sunrise is : ${response.sunrise}</h3>`
  		sunset.innerHTML = `<h3>Sunset is : ${response.sunset}</h3>`
- 		temp.innerHTML = `<h2>${response.temp}&#8451</h3>`
+ 		temp.innerHTML = `<h3>${response.temp}&#8451</h3>`
  		wind_degrees.innerHTML = `<h3>Wind_Degrees is : ${response.wind_degrees}</h3>`
  		wind_speed.innerHTML = `<h3>Wind_Speed is : ${response.wind_speed}</h3>`
 
